@@ -1,0 +1,1 @@
+E:\ServeurRP\server\FXServer.exe +exec serveur.cfg

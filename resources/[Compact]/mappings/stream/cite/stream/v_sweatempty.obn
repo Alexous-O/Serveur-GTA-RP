@@ -1,0 +1,105 @@
+Version 43 31
+{
+	Type BoundComposite
+	AABBMin -1.1803238 -0.8638558 0.1255741
+	AABBMax 4.3266368 0.9745193 0.1365540
+	Radius 2.90286
+	Centroid 1.5731566 0.0553317 0.1310641
+	CG 1.5471119 0.1418073 0.0471288
+	VertexColors null
+	MaterialColors null
+	ChildTransforms 2
+	{
+		Matrix 0
+		{
+			1.0000000 0.0000000 0.0000000
+			0.0000000 1.0000000 0.0000000
+			0.0000000 0.0000000 1.0000000
+			0.0000000 0.0000000 0.0000000
+		}
+		Matrix 1
+		{
+			1.0000000 0.0000000 0.0000000
+			0.0000000 1.0000000 0.0000000
+			0.0000000 0.0000000 1.0000000
+			0.0000000 0.0000000 0.0000000
+		}
+	}
+	ChildFlags 2
+	{
+		Item
+		{
+			Flags1 MAP_ANIMAL MAP_COVER MAP_DYNAMIC MAP_VEHICLE MAP_WEAPON
+			Flags2 ANIMAL ANIMAL_RAGDOLL EXPLOSION FORKLIFT_FORKS GLASS OBJECT PED PLANT PROJECTILE RAGDOLL TEST_AI TEST_CAMERA TEST_SCRIPT TEST_VEHICLE_WHEEL TEST_WEAPON VEHICLE_BVH VEHICLE_NOT_BVH
+		}
+		Item
+		{
+			Flags1 MAP_STAIRS
+			Flags2 PED TEST_AI TEST_CAMERA TEST_SCRIPT TEST_VEHICLE_WHEEL TEST_WEAPON
+		}
+	}
+	Children 2
+	{
+		phBound
+		{
+			Type BoundBVH
+			AABBMin 3.7236209 -0.8638558 0.1255741
+			AABBMax 4.3266368 0.9745193 0.1257281
+			Radius 0.967374
+			Centroid 4.0251288 0.0553317 0.1256511
+			CG 3.0942237 0.2836145 0.0942576
+			Margin 0.005
+			GeometryCenter 4.0251288 0.0553317 0.1256511 0.0025
+			Materials 1
+			{
+				Material 0
+				{
+					MaterialIndex 1
+					ProcId 0
+					RoomId 2
+					PedDensity 0
+					PolyFlags FLAG_NO_NETWORK_SPAWN FLAG_NOT_CLIMBABLE
+					MaterialColorIndex 0
+				}
+			}
+			VertexColors null
+			MaterialColors null
+			Polygons 1
+			{
+				Tri 0
+				{
+					Vertices 2 1 3
+					Siblings -1 -1 -1
+					MaterialIndex 0
+				}
+			}
+			ComputePolyNeighbors True
+			Vertices 5
+			{
+				-0.3015079 0.9191875 0.0000770
+				-0.3015079 0.7575102 0.0000770
+				0.3015079 0.7575102 0.0000770
+				0.3015079 -0.5465574 -0.0000770
+				0.3015079 -0.9191875 -0.0000770
+			}
+		}
+		phBound
+		{
+			Type BoundBVH
+			AABBMin -1.1803238 0.5250189 0.1363869
+			AABBMax 1.7865403 0.5250189 0.1365540
+			Radius 1.48343
+			Centroid 0.3031082 0.5250189 0.1364704
+			CG 0.0000000 0.0000000 0.0000000
+			Margin 0.005
+			GeometryCenter 0.3031082 0.5250689 0.1364704 0.0025
+			VertexColors null
+			MaterialColors null
+			Vertices 2
+			{
+				1.4834321 -0.0000500 0.0000836
+				-1.4834321 -0.0000500 -0.0000836
+			}
+		}
+	}
+}
